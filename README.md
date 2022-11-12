@@ -2,6 +2,8 @@
 
 ## Goal
 
+Create a Managment system to keep track of attendees during a youth camp
+
 ## System
 
 ```mermaid

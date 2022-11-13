@@ -56,7 +56,8 @@ If [pocketbase](https://pocketbase.io/docs/) probably flutter is the better choi
 
 * Build everything in react native use [react-native-web](https://necolas.github.io/react-native-web/) to transform components for the web.
 * Routing mobile [react-navigation](https://reactnavigation.org/)
-* Routing web either react-navigation or maybe easier [nextjs](https://nextjs.org/) !Clear routing and page seperation will be needed in the project
+* Routing web either react-navigation or maybe easier [nextjs](https://nextjs.org/)
+* [Example repo for react-native-web and navigation](https://github.com/criszz77/luna)
 
 ### Backend
 

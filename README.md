@@ -44,5 +44,8 @@ Since we could use typescript in front- and back-end.
 
 ### Backend
 
+#### Stack
+* https://pocketbase.io/docs/
+
 #### Literature
 * https://strapi.io/blog/real-time-chat-application-using-strapi-next-socket-io-and-postgre-sql

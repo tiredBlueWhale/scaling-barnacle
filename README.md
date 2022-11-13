@@ -36,6 +36,8 @@ Either [react-native](https://reactnative.dev/) or [flutter](https://flutter.dev
 If we use nodejs in the backend, react-native would use development time and increase overall type safety.
 Since we could use typescript in front- and back-end.
 
+If [pocketbase](https://pocketbase.io/docs/) probably flutter is the better choice for the frontend since it has a full supported dart [library](https://github.com/pocketbase/dart-sdk).
+
 #### React Native
 
 * Build everything in react native use [react-native-web](https://necolas.github.io/react-native-web/) to transform components for the web.
@@ -44,8 +46,9 @@ Since we could use typescript in front- and back-end.
 
 ### Backend
 
-#### Stack
+#### Possibilites
 * https://pocketbase.io/docs/
+* https://supabase.com/docs 
 
 #### Literature
 * https://strapi.io/blog/real-time-chat-application-using-strapi-next-socket-io-and-postgre-sql

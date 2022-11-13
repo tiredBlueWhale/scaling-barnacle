@@ -2,7 +2,21 @@
 
 ## Goal
 
-Create a Managment system to keep track of attendees during a youth camp
+Create a Managment system to keep track of attendees during a youth camp.
+
+### Priority
+* List of all attendees with the currect state (present, absent, commuting, sick, excursion) ❗❗❗ automatic sync
+* QrScanner to change attendee state
+
+### Additonal
+* CRUD Excursions (If there is a day trip, if the attendees are present but not in the main vicinity
+* CRUD Shopping list
+* CRUD Cleaning list
+--> Have a generic admin interface, to create different kinds of lists
+--> If that does not work, have a config of which views are available in the app
+
+### Nice to have, to keep in mind, plan to use it
+* Localization
 
 ## System
 
@@ -36,7 +50,7 @@ Either [react-native](https://reactnative.dev/) or [flutter](https://flutter.dev
 If we use nodejs in the backend, react-native would use development time and increase overall type safety.
 Since we could use typescript in front- and back-end.
 
-If [pocketbase](https://pocketbase.io/docs/) probably flutter is the better choice for the frontend since it has a full supported dart [library](https://github.com/pocketbase/dart-sdk).
+If [pocketbase](https://pocketbase.io/docs/) probably flutter is the better choice for the frontend since it has a full supported dart [library](https://github.com/pocketbase/dart-sdk). Or maybe not, seems like the [realtime service](https://github.com/pocketbase/dart-sdk) is not work.
 
 #### React Native
 

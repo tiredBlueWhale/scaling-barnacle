@@ -50,7 +50,7 @@ Either [react-native](https://reactnative.dev/) or [flutter](https://flutter.dev
 If we use nodejs in the backend, react-native would use development time and increase overall type safety.
 Since we could use typescript in front- and back-end.
 
-If [pocketbase](https://pocketbase.io/docs/) probably flutter is the better choice for the frontend since it has a full supported dart [library](https://github.com/pocketbase/dart-sdk). Or maybe not, seems like the [realtime service](https://github.com/pocketbase/dart-sdk) is not work.
+If [pocketbase](https://pocketbase.io/docs/) probably flutter is the better choice for the frontend since it has a full supported dart [library](https://github.com/pocketbase/dart-sdk). Or maybe not, seems like the [realtime service](https://github.com/pocketbase/dart-sdk) does not work.
 
 #### React Native
 

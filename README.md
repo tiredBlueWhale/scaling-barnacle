@@ -67,3 +67,21 @@ If [pocketbase](https://pocketbase.io/docs/) probably flutter is the better choi
 
 #### Literature
 * https://strapi.io/blog/real-time-chat-application-using-strapi-next-socket-io-and-postgre-sql
+
+## Development
+
+### Front-End
+
+* [node@16](https://nodejs.org/en/blog/release/v16.16.0/) Installs node and also npm (I think)
+* [yarn](https://classic.yarnpkg.com/lang/en/docs/install/#mac-stable)
+* `cd front-end && yarn install`
+* web: `yarn web`
+* ios: `cd ios && pod install && cd .. && yarn ios` pod install only on first install or after module update
+
+### Backend-End
+
+* [Go](https://go.dev/doc/install)
+* `cd back-end && go get github.com/pocketbase/pocketbase`
+* `go run main.go serve`
+
+email/password: god@mail.com
